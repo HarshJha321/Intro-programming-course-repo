@@ -1,0 +1,37 @@
+num1 = int(input("Please enter the first number: "))
+num2 = int(input("Please enter the second number: "))
+answer1 = num1 * num2
+print("The answer to your query is: ", answer1)
+
+# 2. 8 divided by 3
+num1 = int(input("Please enter the first number: "))
+num2 = int(input("Please enter the second number: "))
+answer2 = num1 / num2
+print("The answer to your query is: ", answer2)
+
+# 3. 8 divided by 3 without the remainder
+num1 = int(input("Please enter the first number: "))
+num2 = int(input("Please enter the second number: "))
+answer3 = num1 // num2
+print("The answer to your query is: ", answer3)
+
+# 4. 8 modulo 3 (remainder only)
+num1 = int(input("Please enter the first number: "))
+num2 = int(input("Please enter the second number: "))
+answer4 = num1 % num2
+print("The answer to your query is: ", answer4)
+
+# 5. 4200000 add 23090
+num1 = int(input("Please enter the first number: "))
+num2 = int(input("Please enter the second number: "))
+answer5 = num1 + num2
+print("The answer to your query is: ", answer5)
+
+# 6. 4200000 subtract 7633
+num1 = int(input("Please enter the first number: "))
+num2 = int(input("Please enter the second number: "))
+answer6 = num1 - num2
+print("The answer to your query is: ", answer6)
+
+# Last line: print your name
+print("Harsh Jha")
