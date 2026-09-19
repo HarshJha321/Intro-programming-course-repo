@@ -1,0 +1,8 @@
+kwh = int(input("Enter the KW hours used: "))
+
+if kwh <= 1000:
+    total_owed = kwh * 0.07633
+else:
+    total_owed = (1000 * 0.07633) + ((kwh - 1000) * 0.09259)
+
+print(f"Amount owed is ${total_owed}")
